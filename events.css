@@ -1,0 +1,55 @@
+/* Styling for the Events Page */
+.events-page {
+    background-color: #f4f4f4; /* Light background to make content stand out */
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.event {
+    background-color: #ffffff; /* White background for each event block */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.event img {
+    width: 100%; /* Full width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 15px 0; /* Spacing between the title and date */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+.event h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px; /* Add space after the title */
+}
+
+.event p {
+    font-size: 16px;
+    color: #555;
+}
+
+.event strong {
+    color: #333; /* Strong emphasis on date and location */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .event {
+        padding: 15px;
+    }
+
+    .event h3 {
+        font-size: 22px;
+    }
+
+    .event p {
+        font-size: 14px;
+    }
+}
